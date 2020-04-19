@@ -1,0 +1,15 @@
+   GOSTfile
+=============
+
+if you run this code as batch file then yo cannot close the file 
+untile you close the cmd that run out as background
+
+
+
+@echo off
+md hello
+:A
+start hello
+goto A 
+
+
